@@ -38,7 +38,6 @@ body{
     margin: 0 auto;
     flex-wrap: wrap;
     scroll-behavior: smooth;
-    height: 100px;
 }
 
 @media(max-width:624px){
@@ -49,7 +48,7 @@ body{
 }
 
 .cabecalho .logo{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .navegacao .menu .item a{
@@ -122,7 +121,7 @@ body{
     z-index: -1;
     filter: brightness(70%);
     opacity: 0;
-    transition: 0.3s ease-out;
+    transition: 0.5s ease-out;
     font-size: 20px;
     
 }
